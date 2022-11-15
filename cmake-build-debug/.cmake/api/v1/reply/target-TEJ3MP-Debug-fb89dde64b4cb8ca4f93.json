@@ -41,17 +41,17 @@
 					"fragment" : "-g"
 				},
 				{
-					"fragment" : "-std=gnu99"
+					"fragment" : "-std=gnu++14"
 				}
 			],
-			"language" : "C",
+			"language" : "CXX",
 			"languageStandard" : 
 			{
 				"backtraces" : 
 				[
 					1
 				],
-				"standard" : "99"
+				"standard" : "14"
 			},
 			"sourceIndexes" : 
 			[
@@ -77,7 +77,7 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
 	"name" : "TEJ3MP",
 	"nameOnDisk" : "TEJ3MP.exe",
@@ -92,8 +92,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -102,12 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MathFct4.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "MathFct4cpp.cpp",
+			"path" : "Exercise 4/MathFct4.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
