@@ -1,3 +1,3 @@
-C:/Users/4ny1k/CLionProjects/TEJ3MP/cmake-build-debug/CMakeFiles/TEJ3MP.dir
-C:/Users/4ny1k/CLionProjects/TEJ3MP/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/4ny1k/CLionProjects/TEJ3MP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/cmake-build-debug/CMakeFiles/TEJ3MP.dir
+C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/cmake-build-debug/CMakeFiles/rebuild_cache.dir

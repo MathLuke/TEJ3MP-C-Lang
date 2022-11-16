@@ -3,4 +3,4 @@ project(TEJ3MP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TEJ3MP "Exercise 4/MathFct4.cpp")
+add_executable(TEJ3MP "Exercise 5/Ex5.cpp")

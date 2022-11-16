@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\4ny1k\CLionProjects\TEJ3MP -B C:\Users\4ny1k\CLionProjects\TEJ3MP\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang -B C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/4ny1k/CLionProjects/TEJ3MP/cmake-build-debug
+-- Build files have been written to: C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/cmake-build-debug
