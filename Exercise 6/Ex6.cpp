@@ -6,6 +6,7 @@
 int num;
 int guess;
 int numGuesses;
+
 void pauseProgram()
 {
     printf("\nPress any key to continue...");
@@ -18,7 +19,7 @@ void randNum () {
     num = rand() % 100; // generate a random no. from 0 to 99
     num = num + 1; // num is now a random no. from 1 to 100
 }
-// Function Title
+
 void title(char * programTitle)
 {
     int len = strlen(programTitle);
@@ -27,7 +28,7 @@ void title(char * programTitle)
     for(int i=1;i< 40 - len/2; i++) printf("");
     printf("%s\n", programTitle);
 }
-// User Input
+
 void userInput()
 {
     title("Random Number");
@@ -35,13 +36,9 @@ void userInput()
     scanf("%d", &guess);
     getchar();
 }
-// Function displayRand
+/*
 void displayRand()
 {
-/* The following 2 lines are needed for generating
-different random numbers for each execution.
-Simple "srand()" seed: just use "time()"
-*/
     title("Random Number");
     if ( guess > num)
         printf("\nCome down!\n");
@@ -51,14 +48,33 @@ Simple "srand()" seed: just use "time()"
     printf("\nRight on!\n");
     pauseProgram();
 }
-// Main Program
+*/
+void display () {
+    if ( guess > num)
+        printf("\nCome down!\n");
+    else if (guess < num)
+        printf("\nWay down there?\n");
+    else
+        printf("\nRight on!\n");
+    pauseProgram();
+}
+
+void goodbye () {
+    if (guess == num) {
+        printf("\nGood Job! ");
+    } else {
+        printf("\nTry next time. ");
+    }
+    printf("Answer was: %d", num);
+}
+
 int main()
 {
     randNum();
     do
     {
         userInput();
-        displayRand();
+        display();
         numGuesses++;
         if (num == guess) // get out of the loop
         {
@@ -68,6 +84,7 @@ int main()
         {
             numGuesses--;
         }
-    } while (numGuesses < 3); // this is an infinite loop, as 1 is considered true in C
+    } while (numGuesses < 3);
+    goodbye();
     return 0;
 }
