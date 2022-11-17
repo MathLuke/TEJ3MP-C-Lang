@@ -49,21 +49,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeFindCodeBlocks.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/ProcessorCount.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -164,8 +149,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/cmake-build-debug",
-		"source" : "C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang"
+		"build" : "C:/Users/4ny1k/CLionProjects/TEJ3MP/cmake-build-debug",
+		"source" : "C:/Users/4ny1k/CLionProjects/TEJ3MP"
 	},
 	"version" : 
 	{
