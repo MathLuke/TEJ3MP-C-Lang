@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/Exercise 5/Ex5.cpp">
+		<Unit filename="C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/Exercise 6/Ex6.cpp">
 			<Option target="TEJ3MP"/>
 		</Unit>
 		<Unit filename="C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/CMakeLists.txt">

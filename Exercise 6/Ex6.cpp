@@ -1,8 +1,14 @@
+/*
+ * Luke Mathieu
+ * Mr. Wong
+ * November 18, 2022
+ * C Lang Exercise 6
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-// Declaration Section
+
 int num;
 int guess;
 int numGuesses;
@@ -35,20 +41,14 @@ void userInput()
     printf("\nEnter a number between 1 and 100: ");
     scanf("%d", &guess);
     getchar();
+    if ((guess > 100) || (guess < 1))
+    {
+        printf("\nMake sure you enter a number from 1 to 100.\n");
+        pauseProgram();
+        userInput();
+    }
 }
-/*
-void displayRand()
-{
-    title("Random Number");
-    if ( guess > num)
-        printf("\nCome down!\n");
-    else if (guess < num)
-        printf("\nWay down there?\n");
-    else
-    printf("\nRight on!\n");
-    pauseProgram();
-}
-*/
+
 void display () {
     if ( guess > num)
         printf("\nCome down!\n");
@@ -63,9 +63,9 @@ void goodbye () {
     if (guess == num) {
         printf("\nGood Job! ");
     } else {
-        printf("\nTry next time. ");
+        printf("\nGood luck next time. ");
     }
-    printf("Answer was: %d", num);
+    printf("Answer was %d.\nBy: Luke Mathieu\n", num);
 }
 
 int main()
@@ -76,13 +76,9 @@ int main()
         userInput();
         display();
         numGuesses++;
-        if (num == guess) // get out of the loop
+        if (num == guess)
         {
             break;
-        }
-        if ((guess > 100) || (guess < 1))
-        {
-            numGuesses--;
         }
     } while (numGuesses < 3);
     goodbye();
