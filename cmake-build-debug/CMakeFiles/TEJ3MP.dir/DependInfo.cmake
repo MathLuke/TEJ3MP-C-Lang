@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/Exercise 7/Menu.cpp" "CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj" "gcc" "CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj.d"
+  "C:/Users/mathd/CLionProjects/TEJ3MP-C-Lang/Exercise 8/Lab6_1.cpp" "CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj" "gcc" "CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj.d"
   )
 
 # Targets to which this target links.

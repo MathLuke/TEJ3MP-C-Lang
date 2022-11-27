@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj"
-  "CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj.d"
+  "CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj"
+  "CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj.d"
   "TEJ3MP.exe"
   "TEJ3MP.exe.manifest"
   "TEJ3MP.pdb"

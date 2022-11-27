@@ -128,29 +128,29 @@ TEJ3MP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEJ3MP.dir\build.make CMakeFiles/TEJ3MP.dir/build
 .PHONY : TEJ3MP/fast
 
-Exercise_7/Menu.obj: Exercise_7/Menu.cpp.obj
-.PHONY : Exercise_7/Menu.obj
+Exercise_8/Lab6_1.obj: Exercise_8/Lab6_1.cpp.obj
+.PHONY : Exercise_8/Lab6_1.obj
 
 # target to build an object file
-Exercise_7/Menu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEJ3MP.dir\build.make CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj
-.PHONY : Exercise_7/Menu.cpp.obj
+Exercise_8/Lab6_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEJ3MP.dir\build.make CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj
+.PHONY : Exercise_8/Lab6_1.cpp.obj
 
-Exercise_7/Menu.i: Exercise_7/Menu.cpp.i
-.PHONY : Exercise_7/Menu.i
+Exercise_8/Lab6_1.i: Exercise_8/Lab6_1.cpp.i
+.PHONY : Exercise_8/Lab6_1.i
 
 # target to preprocess a source file
-Exercise_7/Menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEJ3MP.dir\build.make CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.i
-.PHONY : Exercise_7/Menu.cpp.i
+Exercise_8/Lab6_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEJ3MP.dir\build.make CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.i
+.PHONY : Exercise_8/Lab6_1.cpp.i
 
-Exercise_7/Menu.s: Exercise_7/Menu.cpp.s
-.PHONY : Exercise_7/Menu.s
+Exercise_8/Lab6_1.s: Exercise_8/Lab6_1.cpp.s
+.PHONY : Exercise_8/Lab6_1.s
 
 # target to generate assembly for a file
-Exercise_7/Menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEJ3MP.dir\build.make CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.s
-.PHONY : Exercise_7/Menu.cpp.s
+Exercise_8/Lab6_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEJ3MP.dir\build.make CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.s
+.PHONY : Exercise_8/Lab6_1.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TEJ3MP
-	@echo ... Exercise_7/Menu.obj
-	@echo ... Exercise_7/Menu.i
-	@echo ... Exercise_7/Menu.s
+	@echo ... Exercise_8/Lab6_1.obj
+	@echo ... Exercise_8/Lab6_1.i
+	@echo ... Exercise_8/Lab6_1.s
 .PHONY : help
 
 

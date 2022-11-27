@@ -68,28 +68,28 @@ include CMakeFiles/TEJ3MP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TEJ3MP.dir/flags.make
 
-CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj: CMakeFiles/TEJ3MP.dir/flags.make
-CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj: ../Exercise\ 7/Menu.cpp
-CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj: CMakeFiles/TEJ3MP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj -MF CMakeFiles\TEJ3MP.dir\Exercise_7\Menu.cpp.obj.d -o CMakeFiles\TEJ3MP.dir\Exercise_7\Menu.cpp.obj -c "C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\Exercise 7\Menu.cpp"
+CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj: CMakeFiles/TEJ3MP.dir/flags.make
+CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj: ../Exercise\ 8/Lab6_1.cpp
+CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj: CMakeFiles/TEJ3MP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj -MF CMakeFiles\TEJ3MP.dir\Exercise_8\Lab6_1.cpp.obj.d -o CMakeFiles\TEJ3MP.dir\Exercise_8\Lab6_1.cpp.obj -c "C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\Exercise 8\Lab6_1.cpp"
 
-CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\Exercise 7\Menu.cpp" > CMakeFiles\TEJ3MP.dir\Exercise_7\Menu.cpp.i
+CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\Exercise 8\Lab6_1.cpp" > CMakeFiles\TEJ3MP.dir\Exercise_8\Lab6_1.cpp.i
 
-CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\Exercise 7\Menu.cpp" -o CMakeFiles\TEJ3MP.dir\Exercise_7\Menu.cpp.s
+CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\mathd\CLionProjects\TEJ3MP-C-Lang\Exercise 8\Lab6_1.cpp" -o CMakeFiles\TEJ3MP.dir\Exercise_8\Lab6_1.cpp.s
 
 # Object files for target TEJ3MP
 TEJ3MP_OBJECTS = \
-"CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj"
+"CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj"
 
 # External object files for target TEJ3MP
 TEJ3MP_EXTERNAL_OBJECTS =
 
-TEJ3MP.exe: CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj
+TEJ3MP.exe: CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj
 TEJ3MP.exe: CMakeFiles/TEJ3MP.dir/build.make
 TEJ3MP.exe: CMakeFiles/TEJ3MP.dir/linklibs.rsp
 TEJ3MP.exe: CMakeFiles/TEJ3MP.dir/objects1.rsp
