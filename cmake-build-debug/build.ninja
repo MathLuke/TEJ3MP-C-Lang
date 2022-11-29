@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/4ny1k/CLionProjects/TEJ3MP/cmake-build-debug/
 
 build cmake_object_order_depends_target_TEJ3MP: phony || CMakeFiles/TEJ3MP.dir
 
-build CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj: CXX_COMPILER__TEJ3MP_Debug C$:/Users/4ny1k/CLionProjects/TEJ3MP/Exercise$ 7/Menu.cpp || cmake_object_order_depends_target_TEJ3MP
-  DEP_FILE = CMakeFiles\TEJ3MP.dir\Exercise_7\Menu.cpp.obj.d
+build CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj: CXX_COMPILER__TEJ3MP_Debug C$:/Users/4ny1k/CLionProjects/TEJ3MP/Exercise$ 8/Lab6_1.cpp || cmake_object_order_depends_target_TEJ3MP
+  DEP_FILE = CMakeFiles\TEJ3MP.dir\Exercise_8\Lab6_1.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\TEJ3MP.dir
-  OBJECT_FILE_DIR = CMakeFiles\TEJ3MP.dir\Exercise_7
+  OBJECT_FILE_DIR = CMakeFiles\TEJ3MP.dir\Exercise_8
   TARGET_COMPILE_PDB = CMakeFiles\TEJ3MP.dir\
   TARGET_PDB = TEJ3MP.pdb
 
@@ -65,7 +65,7 @@ build CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj: CXX_COMPILER__TEJ3MP_Debug 
 #############################################
 # Link the executable TEJ3MP.exe
 
-build TEJ3MP.exe: CXX_EXECUTABLE_LINKER__TEJ3MP_Debug CMakeFiles/TEJ3MP.dir/Exercise_7/Menu.cpp.obj
+build TEJ3MP.exe: CXX_EXECUTABLE_LINKER__TEJ3MP_Debug CMakeFiles/TEJ3MP.dir/Exercise_8/Lab6_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TEJ3MP.dir
